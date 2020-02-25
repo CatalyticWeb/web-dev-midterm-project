@@ -20,8 +20,18 @@
 .white-bg {
   background-color: white;
 }
+.head-padding {
+  margin-top: 60px;
+}
+.jumbo-head-purple {
+  color: #bb99ff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2d017d;
+}
 .jumbotron {
-  margin-top: 25px;
+  margin: 25px auto 25px auto;
+  background-color: white;
+  width: 80%;
 }
 .jumbo-float {
   display: float;
