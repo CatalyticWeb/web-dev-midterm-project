@@ -64,6 +64,10 @@
   color: #bb99ff;
 }
 
+.gfont {
+  font-family: 'Ubuntu', Gadget, sans-serif;
+}
+
 .flex-row{
   display: flex;
   justify-content: center;
@@ -109,4 +113,23 @@ footer {
   width: 100%;
   padding: 20px;
   margin: auto;
+}
+.no-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+.no-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.no-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.no-link:active {
+  color: black;
+  text-decoration: none;
 }
