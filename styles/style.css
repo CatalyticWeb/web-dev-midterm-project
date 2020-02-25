@@ -1,0 +1,112 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.texture-bg {
+  background-image: url(../img/concrete-texture-600x314.jpg);
+  background-repeat: repeat;
+}
+.white-bg {
+  background-color: white;
+}
+.jumbotron {
+  margin-top: 25px;
+}
+.jumbo-float {
+  display: float;
+  
+}
+/* .jumbo-text {
+  float: right;
+  width:85%;
+  clear: right;
+} */
+.jumbo-img {
+  float: left;
+  width: 150px;
+  height: 200px;
+}
+.jumbo-logo {
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  border-radius: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%)
+}
+.centered-text {
+  text-align: center;
+}
+.bg-new-set {
+  background-image: linear-gradient(to bottom right, #642fc4, #2d017d); 
+}
+
+.button-purple {
+  background-image: linear-gradient(#8c46d2, #4728a4)
+}
+
+.button-light-grey {
+  background-image: linear-gradient(#f2f2f2, #d9d9d9)
+}
+
+.header-purple {
+  color: #bb99ff;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.flex-box{
+  margin: 20px;
+  width: 300px;
+}
+.flex-box p{
+  padding: 15px;
+  text-align: center;
+  vertical-align: center;
+}
+.shadows{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table-container {
+  width: 80%;
+  margin: 30px auto auto auto;
+}
+.table-header {
+  padding: 8px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}

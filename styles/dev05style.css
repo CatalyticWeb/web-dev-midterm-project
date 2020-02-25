@@ -1,0 +1,78 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.jumbotron {
+  margin-top: 25px;
+}
+
+.centered-text {
+  text-align: center;
+}
+.bg-new-set {
+  background-image: linear-gradient(to bottom right, #642fc4, #2d017d); 
+}
+
+.button-purple {
+  background-image: linear-gradient(#8c46d2, #4728a4)
+}
+
+.button-light-grey {
+  background-image: linear-gradient(#f2f2f2, #d9d9d9)
+}
+
+.header-purple {
+  color: #bb99ff;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.flex-box{
+  margin: 10px;
+  width: 300px;
+}
+
+.dev01-img {
+  background-image: url("../img/HTML5_logo-500x500.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dev02-img {
+  background-image: url("../img/HTML5_logo-500x500.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dev03-img {
+  background-image: url("../img/HTML5_logo-500x500.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dev04-img {
+  background-image: url("../img/HTML5_logo-500x500.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dev05-img {
+  background-image: url("../img/HTML5_logo-500x500.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
